@@ -7,21 +7,28 @@ var century = 19;
 var year = 1989;
 var month = 12;
 var day = 5;
-var indexOfTheDay = ( ( (century/4) -2*century-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + day ) % 7
+var gender = 'f'
 
-var dayTheUserWasBorn = Days_of_the_week[indexOfTheDay];
-var name = null;
 
-indexOfTheDay = Math.round(indexOfTheDay);
 
-if (gender === 'm'){
-    name = Male_Names[indexOfTheDay];
-} else if (gender === 'f'){
-    name = Female_Names[indexOfTheDay];
-} else{
-    alert("Invalid gender, try again");
+function calculateNameAndDay(century, year, month,day,gender){
+        var indexOfTheDay = ( ( (century/4) -2*century-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + day ) % 7;
+
+        var dayTheUserWasBorn = Days_of_the_week[indexOfTheDay];
+        var name = null;
+
+        indexOfTheDay = Math.round(indexOfTheDay);
+
+        if (gender === 'm'){
+            name = Male_Names[indexOfTheDay];
+        } else if (gender === 'f'){
+            name = Female_Names[indexOfTheDay];
+        } else{
+            alert("Invalid gender, try again");
+        }
+        var list = [dayTheUserWasBorn, name];
+
+
+        console.log(dayTheUserWasBorn);
 }
-
-
-console.log(dayTheUserWasBorn);
 
