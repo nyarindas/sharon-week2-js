@@ -35,6 +35,36 @@ body{
     font-weight: normal;
     color: navy;
     background: white;
-    padding: 5px
+    padding: 5px;
+
+}
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: normal; 
+    letter-spacing: 0.5px;
+    color:rgb(248, 112, 214);
+    word-spacing: 2.7px;
+}
+
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+    padding: 12px;
+
 
 }
