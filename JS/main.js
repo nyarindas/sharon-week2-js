@@ -14,10 +14,13 @@ const Female_Names = ["Äkosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 console.log(yearOfBirth);
 
+//How to calculate users birth details
 function calculateNameAndDay(century, year, month, day, gender){
     var indexOfTheDay = Math.round(( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7);       
     var dayTheUserWasBorn =  Days_of_the_week[indexOfTheDay] 
-    var name = null;        
+    var name = null;     
+    
+    // defining gender parameters
 
         if (gender === 'male'){
             name = Male_Names[indexOfTheDay];
@@ -38,7 +41,8 @@ function age (){
     var userInputGender = prompt("ConfirmEntertheGender:");
     var userInputCentury = parseInt(userInputYear.toString().substring(0,2));
 
-    calculateNameAndDay(userInputCentury,userInputYear,userInputMonth,userInputDay, userInputGender)
+    var output = calculateNameAndDay(userInputCentury,userInputYear,userInputMonth,userInputDay, userInputGender);
+    alert(output)
 
 
 }
