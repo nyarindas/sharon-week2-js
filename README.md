@@ -13,7 +13,8 @@ Edit using your preferred editor. I recommend Visual Studio Code
 
 
 ## Known Bugs:
-Return message is not properly displaying within the site but as a prompt
+Return message is not properly displaying within the site but as a prompt.
+Web visual is different on live site in comparison with go live link- https://user-images.githubusercontent.com/112882077/194888565-3164ce8f-bfa8-40bb-b000-c80d8bc0448b.PNG
 
 ## Link to live site:
 Check the live version here: https://nyarindas.github.io/sharon-week2-js
