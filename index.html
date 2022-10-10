@@ -25,7 +25,7 @@
     <div class= "container">
         
         <div class="wrapper">
-            <form> 
+             
         <div class="base"> 
                 
         <h4> Akan Name Generator</h4>
@@ -33,22 +33,49 @@
                
         </div>
         <h3>When were you born?</h3>
+
+        
         <div class="block">
             <p class="title">Date</p>
-            <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
+            <input id="date" type="text" name="date" placeholder="dd" minlength="1" maxlength="2" required>
         </div>
         <div class="block">
             <p class="title">Month</p>
-            <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+            <input id="month" type="text" name="month" placeholder="mm" minlength="1" maxlength="2" required>
         </div>
         <div class="block">
             <p class="title">Year </p>
-            <input type="text" name="year" id="year" placeholder="yy" minlength="4" maxlength="4" required>
+            <input id="year" type="text" name="year" placeholder="yy" minlength="4" maxlength="4" required>
         </div>
-        <br>
-        
+        <div class="block">
+            <p class="title">Century </p>
+            <input id="century" type="text" name="Century" placeholder="cc" minlength="2" maxlength="2" required>
+        </div>
 
-        <h3>Select your gender</h3>
+        <br> 
+        <br>
+        <br>
+        <border>
+
+        
+        <label for="gender">   
+         
+
+        <h3>Select your gender:</h3>
+        <div class="block">
+            <p class="title">Male</p>
+            <input id="male-input" type="radio" name="gender" value="male" required>
+            <p class="title">Female</p>
+            <input id="female-input" type="radio" name="gender" value="female" required>
+        </div> 
+        </border>
+
+        </label>
+        <div class="base">
+            <button onclick="age()">submit</button>
+
+        </div>
+        
 
 
 
