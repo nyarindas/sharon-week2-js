@@ -93,4 +93,11 @@ input[type=button]:hover{
 
 }
 
+#output {
+    display: none;
+}
+
+.akan {
+    display: block;
+}
 

@@ -40,9 +40,15 @@ function age (){
     var userInputDay = parseInt(prompt("ConfirmEntertheDay:"));
     var userInputGender = prompt("ConfirmEntertheGender:");
     var userInputCentury = parseInt(userInputYear.toString().substring(0,2));
-
     var output = calculateNameAndDay(userInputCentury,userInputYear,userInputMonth,userInputDay, userInputGender);
-    alert(output)
+    alert(output);
+
+    var outputElement = document.getElementById("output");
+    outputElement.innerHTML = "You were born on:" + output [0] + ".Your Akan name is:" + output[1];
+    outputElement.classList.add("akan")
+
+
+
 
 
 }
