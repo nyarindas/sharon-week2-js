@@ -8,7 +8,7 @@ Sharon Nyarinda
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. The goal of this week's Project is to help us practice and better understand the concepts that we have covered throughout this week. These include working with data types, Array, writing functions, control flow, and operators. For more information, check out;  https://en.wikipedia.org/wiki/Akan_names
 
 ## Installation and Setup:
-1. git clone this repository and run it via your preferred browser. 
+1. git clone this repository and run it via your preferred browser. - https://github.com/nyarindas/sharon-week2-js
 Edit using your preferred editor. I recommend Visual Studio Code
 
 
